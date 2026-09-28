@@ -1,4 +1,4 @@
-let element=document.getElementsByClassName("input");
+let element=document.getElementsById("input");
  function add (value){
     input.value+=value;
 
@@ -9,3 +9,6 @@ let element=document.getElementsByClassName("input");
  function clearDisplay(value){
     input.value="";
  }
+ function backspace(value){
+   input.value=input.value.slice(0, -1);
+ } 
